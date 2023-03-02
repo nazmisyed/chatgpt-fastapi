@@ -23,6 +23,8 @@ Note that this code is only the backend implementation of a chat application. Th
 2. Install the required packages: `pip install -r requirements.txt`
 3. Create config.py file as below
 
+```
+
     import os
     environ = {"OPENAI_API_KEY" : "REPLACE WITH YOUR SECRET KEY"}
 
@@ -30,6 +32,8 @@ Note that this code is only the backend implementation of a chat application. Th
         for e in environ:#e is just keys
             os.environ[e]=environ[e]
         return None
+
+```
 
 4. Run the application: `uvicorn main:app --reload`
 5. Open http://localhost:8000 in your browser.
