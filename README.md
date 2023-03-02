@@ -25,13 +25,13 @@ Note that this code is only the backend implementation of a chat application. Th
 
 ```
 
-    import os
-    environ = {"OPENAI_API_KEY" : "REPLACE WITH YOUR SECRET KEY"}
+import os
+environ = {"OPENAI_API_KEY" : "REPLACE WITH YOUR SECRET KEY"}
 
-    def load_env_var():
-        for e in environ:#e is just keys
-            os.environ[e]=environ[e]
-        return None
+def load_env_var():
+    for e in environ:#e is just keys
+        os.environ[e]=environ[e]
+    return None
 
 ```
 
