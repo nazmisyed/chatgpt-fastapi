@@ -36,17 +36,8 @@ def load_env_var():
 ```
 
 4. Run the application: `uvicorn main:app --reload`
-5. Open http://localhost:8000 in your browser.
+5. Open http://localhost:8000/docs in your browser.
 
-## Usage
-
-1. Enter your message in the input field and click on the send button.
-2. The assistant will reply with a message.
-3. The conversation history is displayed in the chat window.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
 
 ## License
 
